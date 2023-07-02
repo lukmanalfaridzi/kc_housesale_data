@@ -1,0 +1,7 @@
+Nilai R^2 sebesar 0.4928532179037931 menunjukkan bahwa model regresi linier menggunakan fitur 'sqft_living' dapat menjelaskan sekitar 49.29% variasi dalam harga ('price') properti. 
+Dengan kata lain, sekitar 49.29% variasi harga dapat dijelaskan oleh variasi dalam luas ruangan ('sqft_living').
+
+Namun, perlu dicatat bahwa terdapat sekitar 50.71% variasi harga yang tidak dapat dijelaskan oleh model ini. 
+Hal ini menunjukkan bahwa terdapat faktor-faktor lain yang mempengaruhi harga properti di luar luas ruangan, yang belum dimasukkan ke dalam model ini. Oleh karena itu, meskipun model ini memberikan beberapa pemahaman tentang hubungan antara luas ruangan dengan harga, masih terdapat variasi yang tidak dapat dijelaskan oleh model tersebut.
+
+Dalam interpretasi ini, penting untuk diingat bahwa R^2 tidak memberikan informasi tentang arah atau signifikansi dari hubungan antara variabel independen dan dependen. Untuk itu, perlu dianalisis juga koefisien regresi, uji signifikansi, dan interpretasi lainnya untuk memahami secara lebih mendalam hubungan antara 'sqft_living' dan 'price'.
