@@ -1,0 +1,19 @@
+X = df[['long']]
+Y = df['price']
+lm = LinearRegression()
+lm.fit(X,Y)
+lm.score(X, Y)
+
+##Fitting model regresi linier menggunakan fitur 'long' (longitude) dan menghitung koefisien determinasi (R^2).
+
+#Fitting model regresi linier adalah proses menemukan garis regresi yang paling sesuai dengan data yang ada. Dalam konteks ini, kita ingin menggunakan fitur 'long' sebagai prediktor (variabel independen) untuk memprediksi nilai target (variabel dependen) yang ada dalam dataset.
+#Koefisien determinasi (R^2) adalah ukuran yang digunakan untuk mengevaluasi seberapa baik model regresi linier kita cocok dengan data. Nilai R^2 berkisar antara 0 hingga 1, dan semakin dekat nilainya dengan 1, semakin baik model kita dalam menjelaskan variasi dalam data.
+
+Dengan menggunakan fitur 'long' sebagai prediktor dan nilai target yang ada dalam dataset, kita dapat melatih model regresi linier. Setelah melatih model, kita dapat menghitung nilai R^2 untuk mengevaluasi seberapa baik model kita cocok dengan data yang ada. Nilai R^2 yang lebih tinggi menunjukkan bahwa model kita dapat menjelaskan sebagian besar variasi dalam data, sedangkan nilai yang lebih rendah menunjukkan bahwa model kita tidak cocok dengan data dengan baik.
+
+Dengan demikian, langkah-langkah yang dapat kita lakukan adalah:
+1. Memisahkan fitur 'long' dan nilai target dari dataset.
+2. Melatih model regresi linier menggunakan fitur 'long' sebagai prediktor dan nilai target.
+3. Menghitung nilai R^2 untuk mengevaluasi seberapa baik model kita cocok dengan data menggunakan metrik R^2.
+
+Dengan melakukan langkah-langkah tersebut, kita dapat memperoleh informasi tentang seberapa baik fitur 'long' dapat menjelaskan variasi dalam nilai target dalam dataset kc_house_data.
